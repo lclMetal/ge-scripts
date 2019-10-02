@@ -22,6 +22,8 @@ struct fpsStruct
 void fpsPrint(int mode);
 void fpsUpdate(void);
 
+// Example function call if called from a text actor's Draw Actor event:
+// fpsPrint(FPS_BOTH);
 void fpsPrint(int mode)
 {
     fpsUpdate();
