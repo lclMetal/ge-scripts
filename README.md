@@ -2,6 +2,15 @@
 
 This is a collection of useful scripts that you can use in Game Editor to make things easier for yourself.
 
+## Scripts
+
+- [**inspect_fps.c**](https://github.com/lclMetal/ge-scripts/blob/master/inspect_fps.c) - allows you to print average fps and fps range over time
+    - Functions:
+        - fpsPrint()
+            ```c 
+            // Usage:
+            fpsPrint(FPS_AVERAGE); // or FPS_RANGE or FPS_BOTH
+            ```
 ## Usage
 
 ### Adding a script to Game Editor
