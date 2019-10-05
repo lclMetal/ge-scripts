@@ -24,6 +24,11 @@ void fpsUpdate(void);
 
 // Example function call if called from a text actor's Draw Actor event:
 // fpsPrint(FPS_BOTH);
+//
+// The different options explained:
+// - FPS_AVERAGE: prints the average fps of the last full second of frames
+// - FPS_RANGE:   prints the highest and the lowest fps within the last second
+// - FPS_BOTH:    prints both, the average and the range
 void fpsPrint(int mode)
 {
     fpsUpdate();
